@@ -1,0 +1,220 @@
+#nome {
+  font-size: 50px;
+  text-decoration: none;
+  color: rgb(128, 8, 128);
+  font-family: 'Old English text MT' !important;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  color: purple;
+  background: white;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #800880;
+  font-family: "Inter";
+  padding: 30 20px;
+}
+
+.titulo1 {
+  font-family: 'Old English text MT';
+  font-size: 35px;
+  text-decoration: none;
+  color: rgb(0 0 0);
+  display: flex;
+  justify-content: center;
+}
+
+.text1 {
+  font-size: 30;
+  padding: 50;
+}
+
+.video1 {
+  display: flex;
+  justify-content: center
+}
+
+
+
+.container {
+  width: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cadastro-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#divCad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btnVoltar {
+  display: flex;
+  justify-content: center;
+}
+
+#cadCliente {
+  font-family: 'Old English text MT';
+}
+
+#email {
+  text-align: center;
+}
+
+.letra {
+  font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* Cards Roupas */
+
+.itens {
+  padding: 50px;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.cardInterior, .descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem img {
+  width: 250px;
+}
+
+.tituloRoupa {
+
+}
+
+.descRoupa {
+
+}
+
+.precoRoupa {
+
+}
+.itens1 {
+  display: flex;
+    justify-content: center;
+}
+#botao {
+  border-radius: 2px;
+  border-radius: 2px;
+    color: #555;
+    font-size: 20px;
+    text-transform: none;
+    padding: 7px 150px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.1),rgba(0,0,0,0.1));
+}
+.tamanhoCamisa {
+  border: none;
+    padding: 15px;
+    background: #eeeeee;
+    font-size: 15px;
+    font-family: 1em
+}
+.precoCamisa {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.infoSelect {
+  display: flex;
+    flex-direction: column
+}
+
+.abaTabela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.descTamanho {
+  padding: 40px;
+  box-shadow: 2px 2px 10px grey;
+  font-size: 21px;
+  width: 850px;
+}
+
+#tabela {
+  width: 950;
+  padding: 20;
+}
+
+#camisaTab {
+ width: 40%;
+
+}
+#tabCamisa {
+  display: flex;
+  justify-content: center;
+}
+#tabelaCamisa {
+    border: 0.1rem solid #dcd7ca;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 1.6rem;
+    max-width: 80%;
+    overflow: hidden;
+    width: 80%;
+}
+#totalPre {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 183px;
+}
+#parceladoPre {
+  display: flex;
+  justify-content: flex-end;
+}
+#divTabela {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#thProduto {
+  width: 700px;
+}
+#tdPreco {
+  padding-left: 110px;
+}
+#tdQuantidade {
+  padding-left: 90px;
+}
+
+#tdSubtotal {
+  padding-left: 60px;
+}
